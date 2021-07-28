@@ -1,6 +1,6 @@
 # Matrix Rain
 
-`Matrix Rain` displays the streaming computer code featured in the [Matrix](https://en.wikipedia.org/wiki/The_Matrix_(franchise)) series in a terminal. It is written in C and uses `ncurses`. `Matrix Rain` was inspired by a One Lone Coder [YouTube video](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)) and has some similarities with [cmatrix](https://github.com/abishekvashok/cmatrix).
+`Matrix Rain` displays the streaming computer code featured in the [Matrix](https://en.wikipedia.org/wiki/The_Matrix_(franchise)) series in a terminal. It is written in `C` and uses `ncurses`. `Matrix Rain` was inspired by a One Lone Coder [YouTube video](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)) and has some similarities with [cmatrix](https://github.com/abishekvashok/cmatrix).
 
 ## Usage
 

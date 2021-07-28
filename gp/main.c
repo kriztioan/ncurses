@@ -2,6 +2,7 @@
 #include <ncurses.h>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <time.h>
 
 enum colors {
   BLACK,

@@ -1,6 +1,6 @@
 # Ncurses Projects
 
-A collection of `ncurses` terminal projects written in C. Many of these projects were inspired by One Lone Coder [YouTube videos](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)).
+A collection of `ncurses` terminal projects written in `C`. Many of these projects were inspired by One Lone Coder [YouTube videos](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)).
 
 ## Usage
 

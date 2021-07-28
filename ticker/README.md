@@ -1,6 +1,6 @@
-# GP
+# Ticker
 
-`GP` is a bare bones Grand Prix game for in the terminal. It is written in `C` and uses `ncurses`. `GP` was inspired by a One Lone Coder [YouTube video](https://www.youtube.com/watch?v=KkMZI5Jbf18) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)).
+`Ticker` is a news ticker for in the terminal. It is written in `C` and uses `ncurses`.
 
 ## Usage
 
@@ -10,11 +10,13 @@ The program is compiled with:
 make
 ```
 
-This results in a binary executable called `gp.bin` in the parent directory, which is invoked as:
+This results in a binary executable called `ticker.bin` in the parent directory, which is invoked, for example, as:
 
 ```shell
-./gp.bin
+./ticker.bin rss.cnn.com/rss/cnn_topstories.rss
 ```
+
+The first command line argument is the URL of a [RSS](https://en.wikipedia.org/wiki/RSS) feed.
 
 ## Keys
 
@@ -22,14 +24,13 @@ The following keys are recognized:
 
 key|function
 ---|--------
-p|pause
-q|quit
+`F1`|quit
+`CTRL-C`|quit
 
 ## Notes
 
-1. `GP` is (not yet) feature complete, e.g., driving is not yet implemented.
-2. For a 'retro' feel and square pixels, install a `classic text mode font` from [The Ultimate Oldschool PC Font Pack](https://int10h.org/oldschool-pc-fonts/).
-3. Dynamic resizing of the terminal window is supported.
+1. By default, `Ticker` checks the feed every 1800 seconds.
+2. The contents of the input window at the bottom will be passed to an external script on hitting `<return>`. The script can be set via the `script` variable in `main.c`.
 
 ## BSD-3 License
 

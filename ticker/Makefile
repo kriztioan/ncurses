@@ -1,13 +1,8 @@
-PROG:=../noise.bin
-PLATFORM:=$(shell uname -s)
+PROG:=../ticker.bin
 CPP_FILES:=$(wildcard *.c)
 OBJ_FILES:=$(patsubst %.c,%.o,$(CPP_FILES))
-CPPFLAGS:=-O3
-LIBS:=-lncursesw
-
-ifeq ($(PLATFORM),Darwin)
-	LIBS:=-lncurses
-endif
+CPPFLAGS:=-w -O3
+LIBS:=-lncurses
 
 $(PROG): $(OBJ_FILES)
 	$(CC) -o $(PROG) $(notdir $(OBJ_FILES)) $(LIBS)
