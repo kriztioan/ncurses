@@ -2,6 +2,8 @@
 
 `Static TV Noise` displays static noise, like on an untuned TV, in a terminal. It is written in C and uses `ncurses`.
 
+![Static TV Noise in Action](StaticTVNoise.png "Static TV Noise in Action")
+
 ## Usage
 
 The program is compiled with:

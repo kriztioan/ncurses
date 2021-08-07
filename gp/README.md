@@ -2,6 +2,7 @@
 
 `GP` is a bare bones Grand Prix game for in the terminal. It is written in `C` and uses `ncurses`. `GP` was inspired by a One Lone Coder [YouTube video](https://www.youtube.com/watch?v=KkMZI5Jbf18) ([Github](https://github.com/OneLoneCoder/), [website](https://community.onelonecoder.com)).
 
+![GP in Action](GP.png "GP in Action")
 ## Usage
 
 The program is compiled with:

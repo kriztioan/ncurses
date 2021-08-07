@@ -2,6 +2,8 @@
 
 `Ticker` is a news ticker for in the terminal. It is written in `C` and uses `ncurses`.
 
+![Ticker in Action](Ticker.png "Ticker in Action")
+
 ## Usage
 
 The program is compiled with:
