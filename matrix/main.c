@@ -175,7 +175,7 @@ int main() {
 
     if (!bPaused) {
 
-      erase();
+      clear();
 
       for (size_t i = 0; i < nStreamers; i++) {
 
